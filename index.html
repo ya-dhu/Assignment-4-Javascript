@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geocoding API Demo</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/script.js"></script>
+<body>
+<h1>Google Map API</h1>
+<div>
+    <label for="address">Enter an Address:</label>
+    <input type="text" id="address" placeholder="Enter address">
+    <button onclick="fetchCoordinates()">Get Coordinates</button>
+</div>
+<div id="coordinates"></div>
+<div>
+    <button onclick="fetchStudentInfo()">Get Student Info</button>
+    <p id="studentInfo"></p></div>
+<div id="map"></div>
+</body>
+</html>
